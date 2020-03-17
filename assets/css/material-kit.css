@@ -16484,3 +16484,47 @@ select.selectpicker {
 .padAround {
   padding: 40px 0 30px;
 }
+.fixHeight {
+  height: 272px;
+  padding-top: 15px;
+}
+.fixPadding {
+  margin-top: 0 !important;
+}
+.fixImg {
+height: 400px;
+}
+.cardFix {
+  line-height: 25px;
+  font-size: 17px;
+}
+.fixSize {
+  height:200px;
+  width: 200px !important;
+}
+.textFix {
+  text-align: justify;
+}
+.spaceOut {
+padding:15px
+}
+.colorChng {
+  color:inherit
+}
+ .backCol {
+  background-color: rgba(200, 200, 200, 0.2) ;
+  margin-bottom:8px
+ }
+.addBor {
+  border:1px solid black;
+  border-radius: 20px;
+}
+.coreBor {
+  display: inline-block;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 8px !important;
+}
+.addStyle {
+  margin-top: 0;
+}

@@ -1,23 +1,10 @@
-<!--
- =========================================================
- Material Kit PRO - v2.2.0
- =========================================================
 
- Product Page: https://www.creative-tim.com/product/material-kit-pro
- Copyright 2019 Creative Tim (https://www.creative-tim.com)
-
- Coded by Creative Tim
-
- =========================================================
-
- The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
--->
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.8.1/baguetteBox.min.css">
-    <link rel="stylesheet" href="gallery-grid.css">
+    <link rel="stylesheet" href="./assets/css/gallery-grid.css">
   <meta charset="utf-8" />
   <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
   <link rel="icon" type="image/png" href="./assets/img/favicon.png">
@@ -31,9 +18,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
   <!-- CSS Files -->
   <link href="./assets/css/material-kit.css?v=2.2.0" rel="stylesheet" />
-  <!-- CSS Just for demo purpose, don't include it in your project -->
-  <link href="./assets/demo/demo.css" rel="stylesheet" />
-  <link href="./assets/demo/vertical-nav.css" rel="stylesheet" />
+ 
 </head>
 
 <body class="about-us sidebar-collapse">
@@ -77,6 +62,15 @@
                   Photo Gallery
                 </a>
             </li>
+            <li class="nav-item" style="display: flex;font-size: 22px;flex-direction: row-reverse;">
+                <a href="#pablo" class="nav-link">
+                  
+                    <a class="colorChng" href="https://github.com/rohan-mistry/IEEE-DJSCE"><i class="fa fa-linkedin spaceOut"></i></a>
+                    <a class="colorChng" href="https://github.com/rohan-mistry/IEEE-DJSCE"><i class="fa fa-facebook spaceOut"></i></a>
+                    <a  class="colorChng" href="https://github.com/rohan-mistry/IEEE-DJSCE"><i class="fa fa-instagram spaceOut"></i></a>
+                 
+                </a>
+            </li>
         </ul>
       </div>
     </div>
@@ -84,69 +78,180 @@
   <div class="page-header header-filter header-small" data-parallax="true" style="background-image: url('./assets/img/bg9.jpg');">
     <div class="container">
       <div class="row">
-        <!-- <div class="col-md-8 ml-auto mr-auto text-center">
-          <h1 class="title">About Us</h1>
-          <h4>Meet the amazing team behind this project and find out more about how we work.</h4>
-        </div> -->
+       
       </div>
     </div>
   </div>
   <div class="main main-raised">
-    <div class="container gallery-container" >
+    <div class=" gallery-container" style="padding: 5px;">
 
       <div class="row text-center">
-        <div class="col-md-8 ml-auto mr-auto">
+        <div class="col-md-12 ml-auto mr-auto">
           <h2 class="title">Amazing Moments</h2>
+         <ul class="nav nav-pills nav-pills-rose" style="display: inline-flex;">
+                <li class="nav-item"><a class="nav-link backCol active" href="#pill1" data-toggle="tab">Triguni</a></li>
+                <li class="nav-item"><a class="nav-link backCol" href="#pill2" data-toggle="tab">IOT</a></li>
+                <li class="nav-item"><a class="nav-link backCol" href="#pill3" data-toggle="tab">Blockchain</a></li>
+                <li class="nav-item"><a class="nav-link backCol" href="#pill4" data-toggle="tab">IEEE Social</a></li>
+                <li class="nav-item"><a class="nav-link backCol" href="#pill5" data-toggle="tab">Embedded C</a></li>
+                <li class="nav-item"><a class="nav-link backCol" href="#pill6" data-toggle="tab">Saguna Baug</a></li>
+                <li class="nav-item"><a class="nav-link backCol" href="#pill7" data-toggle="tab">Photography</a></li>
+              
+              </ul>
+              <div class="tab-content tab-space">
+                <div class="tab-pane active" id="pill1">
+                  <div class="tz-gallery">
+  
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="../images/park.jpg">
+                                <img src="../images/park.jpg" alt="Park">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="../images/bridge.jpg">
+                                <img src="../images/bridge.jpg" alt="Bridge">
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <a class="lightbox" href="../images/tunnel.jpg">
+                                <img src="../images/tunnel.jpg" alt="Tunnel">
+                            </a>
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-6">
+                            <a class="lightbox" href="../images/rails.jpg">
+                                <img src="../images/rails.jpg" alt="Rails">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-6">
+                            <a class="lightbox" href="../images/traffic.jpg">
+                                <img src="../images/traffic.jpg" alt="Traffic">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="../images/rocks.jpg">
+                                <img src="../images/rocks.jpg" alt="Rocks">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="../images/benches.jpg">
+                                <img src="../images/benches.jpg" alt="Benches">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="../images/sky.jpg">
+                                <img src="../images/sky.jpg" alt="Sky">
+                            </a>
+                        </div>
+                    </div>
+            
+                </div>
+
+                 </div>
+                <div class="tab-pane" id="pill2">
+                  <div class="tz-gallery">
+  
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="../images/park.jpg">
+                                <img src="../images/park.jpg" alt="Park">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="../images/bridge.jpg">
+                                <img src="../images/bridge.jpg" alt="Bridge">
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <a class="lightbox" href="../images/tunnel.jpg">
+                                <img src="../images/tunnel.jpg" alt="Tunnel">
+                            </a>
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-6">
+                            <a class="lightbox" href="../images/rails.jpg">
+                                <img src="../images/rails.jpg" alt="Rails">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-6">
+                            <a class="lightbox" href="../images/traffic.jpg">
+                                <img src="../images/traffic.jpg" alt="Traffic">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="../images/rocks.jpg">
+                                <img src="../images/rocks.jpg" alt="Rocks">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="../images/benches.jpg">
+                                <img src="../images/benches.jpg" alt="Benches">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="../images/sky.jpg">
+                                <img src="../images/sky.jpg" alt="Sky">
+                            </a>
+                        </div>
+                    </div>
+            
+                </div>
+                </div>
+                <div class="tab-pane" id="pill3">
+                  <div class="tz-gallery">
+  
+                    <div class="row">
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="../images/park.jpg">
+                                <img src="../images/park.jpg" alt="Park">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="../images/bridge.jpg">
+                                <img src="../images/bridge.jpg" alt="Bridge">
+                            </a>
+                        </div>
+                        <div class="col-sm-12 col-md-4">
+                            <a class="lightbox" href="../images/tunnel.jpg">
+                                <img src="../images/tunnel.jpg" alt="Tunnel">
+                            </a>
+                        </div>
+                        
+                        <div class="col-sm-6 col-md-6">
+                            <a class="lightbox" href="../images/rails.jpg">
+                                <img src="../images/rails.jpg" alt="Rails">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-6">
+                            <a class="lightbox" href="../images/traffic.jpg">
+                                <img src="../images/traffic.jpg" alt="Traffic">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="../images/rocks.jpg">
+                                <img src="../images/rocks.jpg" alt="Rocks">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="../images/benches.jpg">
+                                <img src="../images/benches.jpg" alt="Benches">
+                            </a>
+                        </div>
+                        <div class="col-sm-6 col-md-4">
+                            <a class="lightbox" href="../images/sky.jpg">
+                                <img src="../images/sky.jpg" alt="Sky">
+                            </a>
+                        </div>
+                    </div>
+            
+                </div>
+                </div>
+              </div>
         </div>
       </div>
       
-      <div class="tz-gallery">
-  
-          <div class="row">
-              <div class="col-sm-6 col-md-4">
-                  <a class="lightbox" href="../images/park.jpg">
-                      <img src="../images/park.jpg" alt="Park">
-                  </a>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                  <a class="lightbox" href="../images/bridge.jpg">
-                      <img src="../images/bridge.jpg" alt="Bridge">
-                  </a>
-              </div>
-              <div class="col-sm-12 col-md-4">
-                  <a class="lightbox" href="../images/tunnel.jpg">
-                      <img src="../images/tunnel.jpg" alt="Tunnel">
-                  </a>
-              </div>
-              
-              <div class="col-sm-6 col-md-6">
-                  <a class="lightbox" href="../images/rails.jpg">
-                      <img src="../images/rails.jpg" alt="Rails">
-                  </a>
-              </div>
-              <div class="col-sm-6 col-md-6">
-                  <a class="lightbox" href="../images/traffic.jpg">
-                      <img src="../images/traffic.jpg" alt="Traffic">
-                  </a>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                  <a class="lightbox" href="../images/rocks.jpg">
-                      <img src="../images/rocks.jpg" alt="Rocks">
-                  </a>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                  <a class="lightbox" href="../images/benches.jpg">
-                      <img src="../images/benches.jpg" alt="Benches">
-                  </a>
-              </div>
-              <div class="col-sm-6 col-md-4">
-                  <a class="lightbox" href="../images/sky.jpg">
-                      <img src="../images/sky.jpg" alt="Sky">
-                  </a>
-              </div>
-          </div>
-  
-      </div>
+      
   
   </div>
     
